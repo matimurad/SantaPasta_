@@ -8,7 +8,7 @@ body {
         }
         
 header {
-    background-image: url(../Img/madera.jpeg);
+    background-image: url(../img/madera.jpeg);
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -38,7 +38,7 @@ color: black;}
     align-items: center;
     width: 20%;
     height: 400px;
-    background-image: url(/Img/madera.jpeg);
+    background-image: url(/img/madera.jpeg);
     padding-top: 10px;
     border-radius: 4%;
     color: white}
@@ -58,7 +58,7 @@ main{padding-left: 20px;
     justify-content: space-between;
     margin-bottom: 10px;}
 footer {
-    background-image: url(../Img/madera.jpeg);
+    background-image: url(../img/madera.jpeg);
     color: #fff;
     text-align: left;
     padding: 1em;}
