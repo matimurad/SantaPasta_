@@ -38,7 +38,7 @@ color: black;}
     align-items: center;
     width: 20%;
     height: 400px;
-    background-image: url(/img/madera.jpeg);
+    background-image: url(../img/madera.jpeg);
     padding-top: 10px;
     border-radius: 4%;
     color: white}
