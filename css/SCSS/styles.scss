@@ -76,14 +76,13 @@ header img{
         border-radius: 4%;
         margin-bottom: 30px;
         margin-top: 20px;
-        transition: all 2s;
-        animation: animacion 2s;
-        animation-fill-mode: both;
+
 
         :hover{
             height: 200px;
-            width: 300px;}
-
+            width: 300px;
+            animation: animacion 2s;
+            animation-fill-mode: both;}
         }
     }
 
@@ -99,13 +98,13 @@ header img{
     div {
         width: 20%;
         margin: 0px;
-        transition: all 2s;
-        animation: animacion 2s;
-        animation-fill-mode: both;
+
 
         &:hover{
             height: 200px;
-            width: 300px;}
+            width: 300px;
+            animation: animacion 2s;
+            animation-fill-mode: both;}
 
 
         a{
