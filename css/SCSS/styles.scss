@@ -1,0 +1,158 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+$color-white: #fff;
+$width-products: 60%;
+
+
+%madera-estilos {
+    background-image: url(../img/madera.jpeg);
+    color: $color-white;}
+
+body {
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: $color-white;
+    }
+        
+header {
+    @extend %madera-estilos;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+        list-style-type: none;
+        text-align: left;}
+    }
+
+h1{
+    font-size: 35px;
+    text-align: center;}
+
+h2{
+    font-size: 30px;}
+
+header img{
+    width: 200px}
+
+.nav-link {
+    color: $color-white;
+    font-size: 30px;}
+
+#products {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    a{
+    text-decoration: none;
+    color: black;}
+
+    img{
+        width: $width-products}
+
+    p{
+        width: $width-products}
+
+    div {
+        @extend %madera-estilos;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+        padding-top: 10px;
+        border-radius: 4%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        height: 100px;
+        transition: all 2s;
+
+        :hover{
+            height: 200px;
+            width: 300px;}
+
+        }
+    }
+
+
+@media only screen and (min-width:900px){
+
+#products{
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 220px;
+    padding-top: 100px;
+
+    div {
+        width: 20%;
+        margin: 0px;
+        height: 100px;
+        transition: all 2s;
+
+        &:hover{
+            height: 200px;
+            width: 300px;}
+
+
+        a{
+            display:flex; 
+            justify-content: center;
+            height: 50%;
+            width: 100%;
+    }   
+    }}
+
+p{
+    font-size: 25px;}
+
+main{
+    padding-left: 20px;
+    padding-bottom: 30px;}
+
+.fotos{
+    width: 20%;
+    padding-bottom: 30px;}
+
+.quienessomos {
+    display: flex;
+    justify-content: center;}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;}
+
+footer {
+    background-image: url(../img/madera.jpeg);
+    color: $color-white;
+    text-align: left;
+    padding: 1em;}
+
+.fa-brands{
+    color: $color-white;
+    text-align: left;
+    text-decoration: none;}
+
+.fa-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    font-size: 40px;
+    padding: 10px;
+    background-color: #3bbb6a;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;}
+}
