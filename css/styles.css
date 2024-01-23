@@ -1,5 +1,19 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+header {
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  list-style-type: none;
+  text-align: left;
+}
+header img {
+  width: 200px;
+}
+
 @keyframes animacion {
   0% {
     height: 400px;
@@ -22,17 +36,6 @@ body {
   background-color: #fff;
 }
 
-header {
-  text-align: center;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-}
-header ul {
-  list-style-type: none;
-  text-align: left;
-}
-
 h1 {
   font-size: 35px;
   text-align: center;
@@ -40,10 +43,6 @@ h1 {
 
 h2 {
   font-size: 30px;
-}
-
-header img {
-  width: 200px;
 }
 
 .nav-link {

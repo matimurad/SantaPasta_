@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import 'partials/header';
 
 $color-white: #fff;
 $width-products: 60%;
@@ -9,8 +10,7 @@ $width-products: 60%;
         width: 20%;}
     100% {
         height: 500px;
-        width: 23%;}
-}
+        width: 23%;}}
 
 %madera-estilos {
     background-image: url(../img/madera.jpeg);
@@ -22,18 +22,6 @@ body {
     padding: 0;
     background-color: $color-white;
     }
-        
-header {
-    @extend %madera-estilos;
-    text-align: center;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-
-    ul{
-        list-style-type: none;
-        text-align: left;}
-    }
 
 h1{
     font-size: 35px;
@@ -41,9 +29,6 @@ h1{
 
 h2{
     font-size: 30px;}
-
-header img{
-    width: 200px}
 
 .nav-link {
     color: $color-white;

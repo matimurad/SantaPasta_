@@ -1,0 +1,13 @@
+header {
+    @extend %madera-estilos;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+        list-style-type: none;
+        text-align: left;}
+    img{
+        width: 200px}
+    }
