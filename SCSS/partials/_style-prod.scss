@@ -1,0 +1,18 @@
+$color-white: #fff;
+$width-products: 60%;
+%madera-estilos {
+    background-image: url(../img/madera.jpeg);
+    color: $color-white;}
+
+
+
+h1{
+    font-size: 35px;
+    text-align: center;}
+
+h2{
+    font-size: 30px;}
+
+.nav-link {
+    color: $color-white;
+    font-size: 30px;}
