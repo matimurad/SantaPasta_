@@ -1,0 +1,47 @@
+footer {
+    background-image: url(../img/madera.jpeg);
+    color: $color-white;
+    text-align: left;
+    padding: 1em;}
+
+.fa-brands{
+    color: $color-white;
+    text-align: left;
+    text-decoration: none;}
+
+.fa-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    font-size: 40px;
+    padding: 10px;
+    background-color: #3bbb6a;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;}
+p{
+    font-size: 25px;}
+
+main{
+    padding-left: 20px;
+    padding-bottom: 30px;}
+
+.fotos{
+    width: 20%;
+    padding-bottom: 30px;}
+
+.quienessomos {
+    display: flex;
+    justify-content: center;}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;}
