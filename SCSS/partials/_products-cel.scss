@@ -1,70 +1,40 @@
-@media only screen and (min-width:900px){
-
 $color-white: #fff;
 $width-products: 60%;
-    #products{
-        flex-direction: row;
-        justify-content: space-around;
-        padding-bottom: 220px;
-        padding-top: 100px;
-    
-        div {
-            width: 20%;
-            margin: 0px;
-            a{
-                display:flex; 
-                justify-content: center;
-                height: 50%;
-                width: 100%;
-        }   
-        }}
-    
+
+#products {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    a{
+    text-decoration: none;
+    color: black;}
+
+    img{
+        width: $width-products}
+
     p{
-        font-size: 25px;}
-    
-    main{
-        padding-left: 20px;
-        padding-bottom: 30px;}
-    
-    .fotos{
-        width: 20%;
-        padding-bottom: 30px;}
-    
-    .quienessomos {
+        width: $width-products}
+
+    div {
+        @extend %madera-estilos;
         display: flex;
-        justify-content: center;}
-    
-    .menu-item {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;}
-    
-    footer {
-        background-image: url(../img/madera.jpeg);
-        color: $color-white;
-        text-align: left;
-        padding: 1em;}
-    
-    .fa-brands{
-        color: $color-white;
-        text-align: left;
-        text-decoration: none;}
-    
-    .fa-whatsapp {
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        width: 60px;
-        font-size: 40px;
-        padding: 10px;
-        background-color: #3bbb6a;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;}
-    
-    img {
-        max-width: 50%;
-        height: auto;
-        border-radius: 8px;
-        margin-top: 10px;}
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+        padding-top: 10px;
+        border-radius: 4%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        
+    &:hover{
+            height: 200px;
+            width: 300px;
+            animation: animacion 2s;
+            animation-fill-mode: both;}
+        }
     }
+
+
