@@ -48,12 +48,6 @@ body {
   margin-bottom: 30px;
   margin-top: 20px;
 }
-#products div:hover {
-  height: 200px;
-  width: 300px;
-  animation: animacion 2s;
-  animation-fill-mode: both;
-}
 
 @keyframes animacion {
   0% {
@@ -100,6 +94,12 @@ h2 {
     justify-content: center;
     height: 50%;
     width: 100%;
+  }
+  #products div:hover {
+    height: 200px;
+    width: 300px;
+    animation: animacion 2s;
+    animation-fill-mode: both;
   }
   p {
     font-size: 25px;

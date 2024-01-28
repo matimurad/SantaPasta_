@@ -1,4 +1,5 @@
 @media only screen and (min-width:900px){
+
 $color-white: #fff;
 $width-products: 60%;
     #products{
@@ -15,7 +16,13 @@ $width-products: 60%;
                 justify-content: center;
                 height: 50%;
                 width: 100%;}   
-        }}
+
+    &:hover{
+        height: 200px;
+        width: 300px;
+        animation: animacion 2s;
+        animation-fill-mode: both;}}
+    }
     
     p{
         font-size: 25px;}
