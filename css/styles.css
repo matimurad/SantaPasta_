@@ -9,6 +9,8 @@
 #products a {
   text-decoration: none;
   color: black;
+  display: flex;
+  justify-content: center;
 }
 #products img {
   width: 60%;

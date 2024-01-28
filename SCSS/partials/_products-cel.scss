@@ -9,10 +9,13 @@ $width-products: 60%;
 
     a{
     text-decoration: none;
-    color: black;}
+    color: black;
+    display: flex;
+    justify-content: center;}
 
     img{
-        width: $width-products}
+        width: $width-products
+        }
 
     p{
         width: $width-products}
