@@ -13,21 +13,24 @@
   justify-content: center;
 }
 #products img {
-  width: 60%;
+  width: 50%;
 }
 #products p {
-  width: 60%;
+  width: 80%;
+  text-align: center;
+  height: 100px;
 }
 #products div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 80%;
   height: 400px;
-  padding-top: 10px;
+  padding-top: 5px;
   border-radius: 4%;
   margin-bottom: 30px;
   margin-top: 20px;
+  justify-content: space-evenly;
 }
 
 footer {
@@ -57,10 +60,9 @@ footer {
 }
 
 img {
-  max-width: 50%;
   height: auto;
   border-radius: 8px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 p {
@@ -70,6 +72,7 @@ p {
 main {
   padding-left: 20px;
   padding-bottom: 30px;
+  padding-right: 20px;
 }
 
 .fotos {
@@ -77,9 +80,15 @@ main {
   padding-bottom: 30px;
 }
 
-.quienessomos {
+.quienessomos, .descripcion {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.quienessomos img, .descripcion img {
+  width: 80%;
 }
 
 .menu-item {
@@ -100,6 +109,7 @@ header ul {
 }
 header img {
   width: 200px;
+  max-width: 50%;
 }
 
 body {
@@ -160,6 +170,26 @@ h2 {
     width: 300px;
     animation: animacion 2s;
     animation-fill-mode: both;
+  }
+  .descripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .descripcion img {
+    width: 20%;
+  }
+  .quienessomos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .quienessomos img {
+    width: 40%;
   }
 }
 

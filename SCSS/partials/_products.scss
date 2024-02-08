@@ -23,7 +23,20 @@ $width-products: 60%;
         animation: animacion 2s;
         animation-fill-mode: both;}}
     }
-    
-   
+
+.descripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    img {width: 20%;}}
+
+.quienessomos {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    img {width: 40%;}}
     
     }
