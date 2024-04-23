@@ -1,0 +1,30 @@
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+.carrito {
+    position: absolute;
+    display: none;
+    background-image: url("../img/madera.jpeg");
+    right: 10px;
+    top: 150px;
+    background-color: black;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-carrito {
+    filter: invert(100%);
+    width: 100px;
+}
+
+.mostrar {
+    display: block;
+}
+
