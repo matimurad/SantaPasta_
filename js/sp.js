@@ -19,7 +19,7 @@ function toggle() {
 imgCarrito.onclick = toggle
 
 let url = "../js/api.json"
-    if (window.location.href.includes("index.html")) url = "../js/api.json"
+    if (window.location.href.includes("index.html")) url = "./Santapasta_/js/api.json"
 
 fetch(url).then(x=>x.json()).then(pastas => {
     function getStorage(id) {
