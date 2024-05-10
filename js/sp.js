@@ -18,7 +18,10 @@ function toggle() {
 
 imgCarrito.onclick = toggle
 
-fetch("../js/api.json").then(x=>x.json()).then(pastas => {
+let url = "../js/api.json"
+    if (window.location.href.includes("index.html")) url = "./js/api.json"
+
+fetch(url).then(x=>x.json()).then(pastas => {
     function getStorage(id) {
         if (localStorage.getItem(id) != null) qty[id] = localStorage.getItem(id)
         else qty[id] = 0
