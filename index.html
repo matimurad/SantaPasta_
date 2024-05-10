@@ -35,33 +35,20 @@
       </nav>
       <div>
         <img class="img-carrito" src="img/carrito.png" alt="Carrito">
-        <div class="carrito"></div>
+        <div class="carrito">
+          <div class="item total">
+            <p>Total</p>
+            <p class="precio"></p>
+          </div>
+          <div class="item">
+            <button>Finalizar compra</button>
+          </div>
+        </div>
       </div>
     </header>
 <main>
     <h1>¡Descubre nuestras riquisimas opciones de pastas caseras!<h1>
-<section id="products">
-<div><h2>Agnolotis</h2>
-    <a href="pages/agnolotis.html">
-    <img src="img/agnolotis.png" alt="Agnolotis"></a>
-    <p>Delicada fusión de tradición e innovación.</p>
-    </div>
-<div><h2>Fagotinis</h2>
-    <a href="pages/fagotinis.html">
-    <img src="./img/fagotinis.png" alt="Fagotinis"></a>
-    <p>Explosión de sabores en cada mordisco.</p>
-    </div>
-<div><h2>Mezzelunes</h2>
-        <a href="pages/mezzelunes.html">
-        <img src="img/mezzelunes.png" alt="Mezzelunes"></a>
-        <p>Pasta rellena fresca: tradición e innovación cautivadoras.</p>
-        </div>
-<div><h2>Raviolones</h2>
-    <a href="pages/raviolones.html">
-    <img src="img/raviolones.png" alt="Raviolones"></a>
-    <p>Generosos bocados, rellenos que conquistan paladares.</p>
-    </div>
-</section>
+<section id="products" class="products-index"></section>
 </main>
     <footer>
         <a class="fa-brands fa-whatsapp" href="https://api.whatsapp.com/message/RSSV63WVDIO2B1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer"></a>
@@ -69,6 +56,7 @@
         <a class="fa-brands fa-facebook-f" href="https://www.facebook.com/people/santapasta_/100063637055763/"></a>
         <p>&copy; 2020 Santa Pasta</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/sp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

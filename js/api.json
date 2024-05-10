@@ -1,0 +1,25 @@
+[{
+    "id": "mezzelunes",
+    "precio": 1000,
+    "stock": 5,
+    "description": "Joyas de pasta fresca rellenas que combinan tradición e innovación, cautivando con su fusión única de sabores en cada bocado, invitándote a disfrutar de una experiencia culinaria exquisita y auténtica.",
+    "shortdescription": "Pasta rellena fresca: tradición e innovación cautivadoras."},
+{   
+    "id": "agnolotis",
+    "precio": 4000,
+    "stock": 10,
+    "description": "Pequeñas obras maestras de pasta rellena, fusionando tradición e innovación, ofrecen una experiencia culinaria única con su masa delicada y rellenos exquisitos, creando un festín que cautiva los sentidos.",
+    "shortdescription": "Delicada fusión de tradición e innovación."},
+{   
+    "id": "fagotinis",
+    "precio": 2000,
+    "stock": 15,
+    "description": "Pequeñas delicias de pasta rellena que sorprenden con una explosión de sabores en cada mordisco, fusionando la frescura de la masa con rellenos irresistibles, creando una experiencia culinaria única y memorable.",
+    "shortdescription": "Explosión de sabores en cada mordisco."},
+{   
+    "id": "raviolones",
+    "precio": 3000,
+    "stock": 20,
+    "description": "Grandes deleites de pasta rellena que conquistan los paladares con generosidad, ofreciendo una experiencia culinaria inigualable gracias a su masa sustanciosa y rellenos que despiertan los sentidos.",
+    "shortdescription": "Generosos bocados, rellenos que conquistan paladares."}
+]
