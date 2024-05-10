@@ -65,8 +65,8 @@ fetch(url).then(x=>x.json()).then(pastas => {
                 const div = document.createElement("div")
                 div.innerHTML =
                 `<h2>${i.id}</h2>
-                <a href="../pages/allpasta.html?id=${i.id}">
-                <img src="../img/${i.id}.png" alt="${i.id}"></a>
+                <a href="pages/allpasta.html?id=${i.id}">
+                <img src="img/${i.id}.png" alt="${i.id}"></a>
                 <p>${i.shortdescription}</p>`
 
                 productsIndex.appendChild(div)
